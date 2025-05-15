@@ -4,6 +4,8 @@
 
 <!-- badges: start -->
 
+[![worcs_reproduce](https://github.com/cjvanlissa/testtab/actions/workflows/worcs_reproduce.yaml/badge.svg)](https://github.com/cjvanlissa/testtab/actions/workflows/worcs_reproduce.yaml)
+[![Codecov test coverage](https://codecov.io/gh/cjvanlissa/testtab/graph/badge.svg)](https://app.codecov.io/gh/cjvanlissa/testtab)
 <!-- badges: end -->
 
 <!-- Please add a brief introduction to explain what the project is about    -->

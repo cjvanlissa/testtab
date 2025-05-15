@@ -1,0 +1,16 @@
+worcs_version: 0.1.18.1
+creator: vanlissa
+entry_point: manuscript/manuscript.Rmd
+recipe:
+  recipe: rmarkdown::render('manuscript/manuscript.Rmd')
+  terminal: no
+data:
+  df.csv:
+    save_expression: write.csv(x = data, file = filename, row.names = FALSE)
+    load_expression: read.csv(file = filename, stringsAsFactors = TRUE)
+    codebook: codebook_df.rmd
+    labels: value_labels_df.yml
+checksums:
+  df.csv: 948d0bf337a12027c2b02516befca3ca
+  manuscript/tab.csv: c83bed0414877b2359697fbf2af5c89d
+endpoints: manuscript/tab.csv
